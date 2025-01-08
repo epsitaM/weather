@@ -8,7 +8,7 @@ btn.addEventListener("click",async function(){
 //    temp.innerHTML=city
    const weatherinfo= await getWeatherinfo(city)
    console.log(weatherinfo.main.temp)
-   temp.innerHTML=weatherinfo.main.temp
+   temp.innerHTML=weatherinfo.main.temp     
 });
 async function getWeatherinfo(city)
 {
